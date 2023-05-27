@@ -1,0 +1,1163 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Zeyada&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  transition: 1s ease;
+}
+
+:root {
+  --h-one: "Fascinate Inline", cursive;
+  --h-two: VT323;
+  --titre: ;
+  --color-one: #245e71;
+  --color-two: #d3b2cd;
+  --color-three: #a52a2a;
+  --color-four: skyblue;
+  --color-five: #f2e6f0;
+  --color-six: #0bcf94;
+  --normal-text: "Open Sans", sans-serif;
+}
+
+html{
+  border: 15px solid white;
+}
+
+body {
+  max-width: 1100px;
+  margin: 20px auto;
+  background-image: url("/static/images/bg/bhavsbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(37, 25, 41, 0.571);
+  background-blend-mode: darken;
+}
+
+a{
+  color: #fff;
+  font-weight: bold;
+}
+
+a:link { 
+  text-decoration: none; 
+}
+
+a:visited { 
+  text-decoration: none; 
+}
+
+a:hover { 
+  text-decoration: none; 
+}
+
+a:active { 
+  text-decoration: none; 
+}
+.tab{
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  margin-left: 300px;
+  background-color: var(--color-one);
+  border-radius: 5px;
+}
+/* footer */
+#footer-container {
+  position: relative;
+  height: 20vh;
+}
+
+#footer-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  left: 5%;
+  text-align: center;
+  /* background-color: #f2e6f0; */
+  color: #000;
+  font-family: var(--h-two);
+  font-size: 23px;
+  bottom: 0;
+  width: 90%;
+  border-radius: 15px;
+  height: 3.5rem; /* Footer height */
+}
+
+/* body ::-webkit-scrollbar {
+  display: none;
+} */
+
+.resume {
+  max-width: 1100px;
+  height: 1200px;
+  position: relative;
+  margin-right: 5vh;
+  margin-left: 5vh;
+  margin-bottom: 0;
+  border-radius: 1em;
+  border: 1px solid black;
+  background-color: #2c343c;
+  background-image: linear-gradient(white 2px, transparent 2px),
+    linear-gradient(90deg, white 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+/* header */
+
+.first-nav {
+  max-width: 1100px;
+  height: 55px;
+  background-color: var(--color-one);
+  border-radius: 1em 1em 0 0;
+  padding-left: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+.windows-header-icon {
+  position: relative;
+  bottom: 0.6em;
+}
+
+.name-nav {
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: var(--h-one);
+  color: #fff;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.second-nav {
+  max-width: 1100px;
+  height: 40px;
+  border: 1px solid black;
+  border-top: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--color-two);
+}
+
+.icon-second-nav {
+  width: 40px;
+  margin-left: 1.2em;
+  padding-right: 0.6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ability {
+  margin-left: 1.5em;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  font-family: var(--normal-text);
+}
+.label-style {
+  font-size: 1em;
+  margin-right: 0.25em;
+}
+.input-style {
+  height: 25px;
+  border-radius: 0.3em;
+  padding: 0.3em;
+  background-color: var(--color-five);
+}
+
+/* left bar */
+
+.toolsbar {
+  width: 35px;
+  height: 420px;
+  position: absolute;
+}
+
+.tools-item {
+  width: 35px;
+  height: 35px;
+  background-color: var(--color-two);
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.tools-item-selected {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.image-tools-item {
+  width: 20px;
+}
+.image-tools-item2 {
+  width: 14px;
+}
+.image-tools-item3 {
+  width: 16px;
+}
+.image-tools-item4 {
+  width: 18px;
+}
+.image-tools-item5 {
+  width: 24px;
+}
+
+.windows-nav2-icon {
+  width: 24px;
+  margin: 0.15em;
+}
+.windows-nav2-icon2 {
+  width: 15px;
+  margin: 0.15em;
+}
+
+.tools-item-style2 {
+  width: 35px;
+  height: 70px;
+  background-color: var(--color-two);
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.black-corner {
+  width: 0.2em;
+  height: 0.2em;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* right bar */
+
+.setting-bar {
+  width: 35px;
+  height: 270px;
+  position: absolute;
+  right: 0;
+}
+.setting-item {
+  width: 35px;
+  height: 45px;
+  background-color: var(--color-two);
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* avatar box */
+
+.my-photo {
+  width: 300px;
+  height: 300px;
+}
+
+.size-icon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 0.3em;
+}
+
+.style-box {
+  box-shadow: -0.3em 0.3em rgba(0, 0, 0, 0.3);
+  background-color: var(--color-one);
+  border-radius: 0.6em;
+  border: 1px solid black;
+  position: relative;
+}
+
+.parent-scroll {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  border: 1px solid black;
+  border-radius: 0.6em;
+  position: absolute;
+  background-color: var(--color-two);
+}
+
+.parent-scroll-main {
+  width: 280px;
+  height: 250px;
+  bottom: 0.6em;
+  left: 3%;
+}
+
+.box-title {
+  font-size: 1em;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0.4em 0.8em;
+  color: #fff;
+}
+
+.windows-icon {
+  width: 24px;
+  margin: 0.125em;
+  margin-top: 0.5em;
+}
+
+.avatar {
+  width: 240px;
+  position: absolute;
+  top: 0.6em;
+  left: 10px;
+}
+
+.scroll {
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+.scroll2 {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.parent-scroll::-webkit-scrollbar {
+  width: 16px;
+}
+
+.parent-scroll::-webkit-scrollbar-track:horizontal {
+  border-radius: 0;
+  background-color: #acc4cc;
+  border: 1px solid rgb(199, 189, 189);
+  border-radius: 0 0 0 9px;
+}
+.parent-scroll::-webkit-scrollbar-track:vertical {
+  border-radius: 0;
+  background-color: #acc4cc;
+  border: 1px solid rgb(199, 189, 189);
+  border-radius: 0 9px 0 0;
+}
+
+.parent-scroll::-webkit-scrollbar-thumb {
+  border-radius: 0.6em;
+  -webkit-box-shadow: inset 0 0 6px black;
+  background-color: var(--color-one);
+  border: 1px solid black;
+}
+
+.parent-scroll::-webkit-scrollbar-corner {
+  background-color: var(--color-one);
+  border-radius: 0.3em;
+  border: 1px solid black;
+}
+
+/* About me */
+
+.scroll-avatar-box1 {
+  width: 500px;
+  height: 200px;
+}
+
+.scroll-avatar-box2 {
+  width: 480px;
+  height: 150px;
+  bottom: 0.6em;
+  left: 2%;
+}
+
+.scroll3 {
+  width: 500px;
+  height: 450px;
+  position: relative;
+}
+
+.text-align {
+  width: 470px;
+  padding-top: 0.7em;
+  padding-left: 0.7em;
+  padding-right: 1.5em;
+}
+
+.about-me {
+  font-size: 1em;
+  margin-top: 0.4em;
+  text-align: justify;
+}
+
+.about-me-bolder {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.about-me-bold {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 1em 0;
+}
+
+/* experience */
+
+.style-bio {
+  box-shadow: -0.3em 0.3em rgba(0, 0, 0, 0.3);
+  background-color: var(--color-two);
+  border-radius: 0.6em 0 0 0.6em;
+  border: 1px solid black;
+  position: relative;
+}
+
+.experience {
+  width: 300px;
+  height: 300px;
+}
+.box-icon3 {
+  width: 20px;
+  margin: 2px;
+}
+.bio-header {
+  background-color: var(--color-one);
+  width: 298px;
+  height: 35px;
+  position: absolute;
+  border-radius: 0.6em 0 0 0;
+  right: 0;
+  top: 0;
+}
+
+.bio-footer {
+  background-color: var(--color-one);
+  width: 298px;
+  height: 20px;
+  position: absolute;
+  border-radius: 0 0 0 0.6em;
+  bottom: 0;
+  right: 0;
+}
+
+.bio-rows {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+.bio-rows1 {
+  top: 35px;
+}
+.bio-rows2 {
+  top: 70px;
+}
+.bio-rows3 {
+  top: 105px;
+}
+.bio-rows4 {
+  top: 140px;
+}
+.bio-rows5 {
+  top: 175px;
+}
+
+.eyes {
+  width: 25px;
+  height: 35px;
+  border: 1px solid black;
+  border-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eyes-icon {
+  width: 15px;
+}
+.position {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  width: 274px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+.bio-icon {
+  width: 29px;
+  background-color: #fff;
+  margin: 3px;
+}
+.bio-text {
+  margin-left: 0.3em;
+  font-size: 0.8em;
+  line-height: 12px;
+}
+
+/* skills */
+
+.scroll-skills-box1 {
+  width: 250px;
+  height: 400px;
+  left: 10%;
+}
+
+.scroll-skills-box2 {
+  max-width: 230px;
+  height: 350px;
+  bottom: 0.6em;
+  left: 4%;
+}
+
+.skilltext {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.6em;
+  margin-left: 10px;
+}
+
+.web {
+  width: 180px;
+  margin-bottom: 0.6em;
+}
+
+.programming {
+  width: 180px;
+  margin-bottom: 0.6em;
+}
+
+.gaming{
+  width: 180px;
+  margin-bottom: 0.6em;
+}
+
+/* language */
+.scroll-language-box1 {
+  width: 250px;
+  height: 200px;
+}
+.scroll-language-box2 {
+  width: 230px;
+  height: 150px;
+  bottom: 0.5em;
+  left: 4%;
+}
+
+.scroll-language-box3 {
+  position: relative;
+  width: 150px;
+  height: 210px;
+}
+.language-bar {
+  font-size: 1.2em;
+}
+
+.language-range1 {
+  width: 80px;
+  height: 20px;
+  border-radius: 1em 0 0 1em;
+  margin: 0.4em 0;
+  background-color: var(--color-one);
+  position: absolute;
+  border: 1px solid black;
+}
+.language-range2,
+.language-range4 {
+  width: 150px;
+  height: 20px;
+  border-radius: 1em;
+  background-color: #245e71;
+  margin: 0.4em 0;
+  border: 1px solid black;
+}
+
+.language-range3 {
+  width: 150px;
+  height: 20px;
+  border-radius: 1em;
+  margin: 0.4em 0;
+  background-color: var(--color-one);
+  position: absolute;
+  border: 1px solid black;
+}
+
+.language-range5 {
+  width: 150px;
+  height: 20px;
+  border-radius: 1em;
+  margin: 0.4em 0;
+  background-color: white;
+  position: absolute;
+  border: 1px solid black;
+}
+
+/* social media */
+
+.social-media-icon {
+  width: 70px;
+  height: 70px;
+  box-shadow: -0.3em 0.3em rgba(0, 0, 0, 0.3);
+  background-color: var(--color-two);
+  border-radius: 0.6em;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 2;
+}
+.social-media-id {
+  width: 200px;
+  height: 70px;
+  text-align: center;
+  box-shadow: -0.3em 0.3em rgba(0, 0, 0, 0.3);
+  background-color: var(--color-two);
+  border-radius: 0.6em;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 1;
+  top: 18px;
+  left: 65px;
+}
+.social-header {
+  position: relative;
+}
+.social-header-icon-left {
+  width: 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0.3em;
+}
+.social-header-icon-right {
+  width: 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0.3em;
+}
+
+.linkedin-icon {
+  width: 40px;
+  position: absolute;
+  top: 13px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.seperate {
+  width: 68px;
+  height: 53px;
+  border-top: 1px solid black;
+  border-radius: 0 0 0.6em 0.6em;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--color-one);
+}
+
+.box-icon1 {
+  width: 15px;
+  margin-right: 0.4em;
+}
+.box-icon2 {
+  width: 10px;
+  margin-right: 0.3em;
+}
+.size-icon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.social-title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 8px;
+  font-size: 0.8em;
+  border-right: 1px solid black;
+  width: 100px;
+}
+.seperate2 {
+  width: 198px;
+  height: 51px;
+  border-top: 1px solid black;
+  border-radius: 0 0 0.6em 0.6em;
+  position: absolute;
+  bottom: 0;
+}
+
+.color-set {
+  background-color: var(--color-one);
+  width: 90px;
+  height: 17px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 0 0.6em 0 0;
+}
+
+.Twice-box {
+  display: flex;
+  position: relative;
+}
+.id-social {
+  font-size: 1em;
+  font-weight: bold;
+}
+.link-to-media {
+  text-decoration: none;
+  color: black;
+}
+.background-color {
+  width: 120px;
+  height: 30px;
+  position: absolute;
+  right: 20%;
+  bottom: 10%;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* certificate */
+.scroll-certificate-box1 {
+  width: 275px;
+  height: 280px;
+  box-shadow: -0.3em 0.3em rgba(0, 0, 0, 0.3);
+  background-color: var(--color-one);
+  border-radius: 0.6em;
+  border: 1px solid black;
+  position: relative;
+}
+
+.scroll-certificate-box2 {
+  width: 250px;
+  height: 230px;
+  bottom: 0.5em;
+  left: 4%;
+}
+
+.scroll-certificate-box3 {
+  position: relative;
+}
+.text-align {
+  padding-top: 0.7em;
+  padding-left: 0.7em;
+  padding-right: 1.5em;
+}
+.certificate-title {
+  font-size: 0.8em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.certificate {
+  width: 200px;
+}
+.certifacate-description {
+  font-size: 0.9em;
+}
+
+/* portfolio */
+
+.scroll-portfolio-box1 {
+  width: 550px;
+  height: 380px;
+}
+.scroll-portfolio-box2 {
+  width: 530px;
+  height: 330px;
+  bottom: 0.6em;
+  left: 2%;
+}
+.scroll-portfolio-box3 {
+  width: 600px;
+  height: 3100px;
+  position: relative;
+}
+
+.codepen {
+  height: 2900px;
+  width: 490px;
+}
+
+/* positions */
+
+.avatar-box {
+  position: absolute;
+  left: 105px;
+  top: 150px;
+  z-index: 2;
+}
+.about-me-box {
+  position: absolute;
+  z-index: 1;
+  right: 75px;
+  top: 100px;
+}
+.experience-box {
+  position: absolute;
+  top: 320px;
+  right: 34px;
+}
+
+.skills-box {
+  position: absolute;
+  left: 400px;
+  top: 350px;
+}
+.social-media-linkedin-box {
+  position: absolute;
+  top: 470px;
+  left: 70px;
+}
+
+.social-media-github-box {
+  position: absolute;
+  top: 570px;
+  left: 100px;
+}
+.social-media-figma-box {
+  position: absolute;
+  top: 670px;
+  left: 75px;
+}
+
+.language-box {
+  position: absolute;
+  top: 650px;
+  right: 62px;
+  z-index: 4;
+}
+.certificate-box {
+  position: absolute;
+  top: 880px;
+  right: 62px;
+}
+.portfolio-box {
+  position: absolute;
+  left: 100px;
+  top: 800px;
+}
+
+header {
+  position: relative;
+}
+
+/* responsive */
+
+@media screen and (max-width: 480px) {
+  .resume {
+    height: 2830px;
+  }
+  /* about me responsive */
+
+  .scroll-avatar-box1 {
+    width: 280px;
+    height: 400px;
+  }
+  .scroll-avatar-box2 {
+    height: 350px;
+    width: 274px;
+    bottom: 0.6em;
+    left: 2%;
+  }
+  .scroll3 {
+    width: 500px;
+    height: 550px;
+    position: relative;
+  }
+
+  #text-align1 {
+    width: 270px;
+  }
+  /* remove left and right bar */
+  .display {
+    display: none;
+  }
+
+  /* portfolio responsive */
+
+  .scroll-portfolio-box1 {
+    width: 300px;
+    height: 300px;
+  }
+  .scroll-portfolio-box2 {
+    width: 280px;
+    height: 250px;
+    bottom: 0.6em;
+    left: 2%;
+  }
+  .scroll-portfolio-box3 {
+    width: 400px;
+    height: 4700px;
+    position: relative;
+  }
+
+  .codepen {
+    height: 4670px;
+    width: 240px;
+  }
+
+  /* experience responsive */
+  .style-bio {
+    border-radius: 0.6em;
+  }
+
+  .bio-header {
+    border-radius: 0.6em 0.6em 0 0;
+  }
+
+  /* position */
+  .about-me-box {
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 100px;
+  }
+  .avatar-box {
+    position: absolute;
+    left: 10px;
+    top: 520px;
+    z-index: 2;
+  }
+
+  .experience-box {
+    position: absolute;
+    top: 840px;
+    left: 10px;
+  }
+
+  .skills-box {
+    position: absolute;
+    left: 10px;
+    top: 1160px;
+  }
+  .social-media-linkedin-box {
+    position: absolute;
+    top: 1580px;
+    left: 10px;
+  }
+
+  .social-media-github-box {
+    position: absolute;
+    top: 1680px;
+    left: 10px;
+  }
+  .social-media-figma-box {
+    position: absolute;
+    top: 1780px;
+    left: 10px;
+  }
+
+  .language-box {
+    position: absolute;
+    top: 1900px;
+    left: 10px;
+    z-index: 4;
+  }
+
+  .certificate-box {
+    top: 2140px;
+    right: 6%;
+  }
+
+  .portfolio-box {
+    position: absolute;
+    left: 10px;
+    top: 2460px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .resume {
+    height: 2800px;
+  }
+
+  /* about me responsive */
+
+  .scroll-avatar-box1 {
+    width: 300px;
+    height: 400px;
+  }
+  .scroll-avatar-box2 {
+    height: 350px;
+    width: 287px;
+    bottom: 0.6em;
+    left: 2%;
+  }
+  .scroll3 {
+    width: 500px;
+    height: 550px;
+    position: relative;
+  }
+  .scroll-portfolio-box3 {
+    width: 600px;
+    height: 4100px;
+    position: relative;
+  }
+
+  .codepen {
+    height: 3950px;
+    width: 300px;
+  }
+
+  #text-align1 {
+    width: 270px;
+  }
+
+  /* remove left and right bar */
+  .display {
+    display: none;
+  }
+
+  /* portfolio responsive */
+
+  .scroll-portfolio-box1 {
+    width: 360px;
+    height: 300px;
+  }
+  .scroll-portfolio-box2 {
+    width: 340px;
+    height: 260px;
+    bottom: 0.6em;
+    left: 2%;
+  }
+
+  /* experience responsive */
+  .style-bio {
+    border-radius: 0.6em;
+  }
+
+  .bio-header {
+    border-radius: 0.6em 0.6em 0 0;
+  }
+
+  /* position */
+  .about-me-box {
+    position: absolute;
+    z-index: 1;
+    right: 20%;
+    top: 100px;
+  }
+  .avatar-box {
+    position: absolute;
+    left: 60px;
+    top: 520px;
+    z-index: 2;
+  }
+
+  .experience-box {
+    position: absolute;
+    top: 840px;
+    right: 15%;
+  }
+
+  .skills-box {
+    position: absolute;
+    left: 60px;
+    top: 1160px;
+  }
+  .social-media-linkedin-box {
+    position: absolute;
+    top: 1580px;
+    left: 15%;
+  }
+
+  .social-media-github-box {
+    position: absolute;
+    top: 1680px;
+    left: 20%;
+  }
+  .social-media-figma-box {
+    position: absolute;
+    top: 1780px;
+    left: 15%;
+  }
+
+  .language-box {
+    position: absolute;
+    top: 1910px;
+    left: 25%;
+    z-index: 4;
+  }
+  .certificate-box {
+    top: 2140px;
+    right: 6%;
+  }
+  .portfolio-box {
+    position: absolute;
+    left: 60px;
+    top: 2450px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .resume {
+    height: 1800px;
+  }
+
+  .avatar-box {
+    position: absolute;
+    left: 9vw;
+    top: 350px;
+    z-index: 2;
+  }
+  .about-me-box {
+    position: absolute;
+    z-index: 1;
+    right: 10vw;
+    top: 100px;
+  }
+  .experience-box {
+    position: absolute;
+    top: 320px;
+    right: 34px;
+  }
+
+  .skills-box {
+    position: absolute;
+    top: 650px;
+    right: 0;
+    z-index: 3;
+  }
+  .social-media-linkedin-box {
+    position: absolute;
+    top: 690px;
+    left: 10%;
+  }
+
+  .social-media-github-box {
+    position: absolute;
+    top: 810px;
+    left: 12%;
+  }
+  .social-media-figma-box {
+    position: absolute;
+    top: 930px;
+    left: 10.5%;
+  }
+
+  .language-box {
+    position: absolute;
+    top: 1080px;
+    left: 62px;
+    z-index: 4;
+  }
+  .certificate-box {
+    top: 1070px;
+    right: 6%;
+  }
+  .portfolio-box {
+    position: absolute;
+    left: 60px;
+    top: 1370px;
+  }
+}
