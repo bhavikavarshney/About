@@ -14,7 +14,6 @@ The webpage consists of three sections: **Home**, **Bhavs** and **Hobbies**.
 3. I've mentioned what I like to do in my free time in the <b>Hobbies</b> page. 
 
 
-
-
+## Website
 
 [Here's a link to the site](https://bhavikavarshney.github.io/About/)
