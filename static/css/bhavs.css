@@ -28,7 +28,7 @@ html{
 body {
   max-width: 1100px;
   margin: 20px auto;
-  background-image: url("/static/images/bg/bhavsbg.jpg");
+  background-image: url("../images/bg/bhavsbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(37, 25, 41, 0.571);

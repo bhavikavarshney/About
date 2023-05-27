@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
-    background-image: url("/static/images/bg/hobb.jpg");
+    background-image: url("../images/bg/hobb.jpg");
     background-size: cover;
     border: 7.5px solid #40445b;
     box-sizing: border-box;
